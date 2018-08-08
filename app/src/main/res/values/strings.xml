@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">God-Life</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="skip">Skip</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_liveRadio">Live Radio</string>
+    <string name="title_livevideo">Live Video</string>
+    <string name="word_text">Here is my QUEST for the depths, the UNDERSTANDING of the Ancient Wisdom, the DEFINITION of my path.</string>
+    <string name="prayer_text">BROKEN WILL, THIRSTY SOUL, SURRENDERED HEART, WAITING on the LORD on BENDED KNEES</string>
+    <string name="worship_text">WHERE ALL JEWEL IS DROSS AND LIGHTS FADE AS SHADOWS BENEATH, LIFTED HANDS AND BOWED HEARTS IN AWE WE WORSHIP</string>
+    <string name="love_text">BOUND WITH CHORDS ENTWINED WITH THE ETERNALLY, TRANSFIXED IN YOUR GAZE, IN THAT GENTLE EMBRACE, MY WILL BROKEN, NO MORE IN DARKNESS GROPING. FOR HERE I KNOW, I HAVE FOUND LIFE, HE THAT IS THE DEFINITION OF ALL GOODNESS, LOVE ITS ETERNAL FOUNT</string>
+    <string name="title_about">About Us</string>
+</resources>

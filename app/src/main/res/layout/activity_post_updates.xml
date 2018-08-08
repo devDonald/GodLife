@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.PostUpdates">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="16dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#09010d"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circle"
+                        android:padding="10dp"
+                        android:src="@drawable/img_register"
+                        android:tint="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/tvLiveUpdates1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="Live Updates"
+                            android:layout_marginRight="10dp"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvAnnouncement1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="Announcements"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:background="@color/white"
+                            android:textColor="#0a020e"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/linearLayout1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-10dp"
+                    android:rotation="45"
+                    android:src="@drawable/square" />
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp">
+
+                    <ImageView
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/iv_post_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/post_image"
+
+                        />
+                    <EditText
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@id/iv_post_image"
+                        android:id="@+id/et_post_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Post Title"
+                        android:padding="5dp"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
+                        android:imeOptions="actionNext"/>
+
+                    <EditText
+                        android:background="@drawable/comment_border"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/et_post_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/et_post_description"
+                        android:hint="Post description"
+                        android:inputType="textMultiLine|textCapSentences"
+                        android:padding="5dp"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
+                        android:imeOptions="actionDone"/>
+
+                </RelativeLayout>
+
+
+
+
+                <Button
+                    android:id="@+id/btnLogin1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativeLayout1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#09010d"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Post"
+                    android:textColor="@color/white" />
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_about" />
+
+    <item
+        android:id="@+id/live_radio"
+        android:icon="@drawable/ic_radio_black_24dp"
+        android:title="@string/title_liveRadio" />
+    <item
+        android:id="@+id/live_streaming"
+        android:icon="@drawable/ic_live_video"
+        android:title="@string/title_livevideo" />
+
+</menu>

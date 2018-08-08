@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "618278197764",
+    "firebase_url": "https://godlife-b782a.firebaseio.com",
+    "project_id": "godlife-b782a",
+    "storage_bucket": "godlife-b782a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618278197764:android:a09a4701e2b2c21a",
+        "android_client_info": {
+          "package_name": "donald.com.godlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618278197764-br18uqbn4jbvh0om1lrefholhm6tgqll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "donald.com.godlife",
+            "certificate_hash": "ddd41d1ef153c4939a3bc05d68ceff404439546b"
+          }
+        },
+        {
+          "client_id": "618278197764-c3gggd268c5km13kbahcd0g63p3tr230.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "618278197764-c3gggd268c5km13kbahcd0g63p3tr230.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkZdmT-66mc6tXs5RBAFTEN1MLzfWFSUI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618278197764-c3gggd268c5km13kbahcd0g63p3tr230.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
